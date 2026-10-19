@@ -1,0 +1,33 @@
+{
+  "EnvironmentVariables": [
+    {
+      "SchemaName": "haru_KozaSiteUrl",
+      "Value": "https://contoso.sharepoint.com/sites/koza"
+    },
+    {
+      "SchemaName": "haru_KozaApplyFormId",
+      "Value": "ここに申込みフォームのIDを入れる"
+    },
+    {
+      "SchemaName": "haru_KozaSurveyFormId",
+      "Value": "ここにアンケートフォームのIDを入れる"
+    }
+  ],
+  "ConnectionReferences": [
+    {
+      "LogicalName": "haru_kozakit_sharepointonline",
+      "ConnectionId": "ここに接続IDを入れる（pac connection list）",
+      "ConnectorId": "/providers/Microsoft.PowerApps/apis/shared_sharepointonline"
+    },
+    {
+      "LogicalName": "haru_kozakit_office365",
+      "ConnectionId": "ここに接続IDを入れる（pac connection list）",
+      "ConnectorId": "/providers/Microsoft.PowerApps/apis/shared_office365"
+    },
+    {
+      "LogicalName": "haru_kozakit_microsoftforms",
+      "ConnectionId": "ここに接続IDを入れる（pac connection list）",
+      "ConnectorId": "/providers/Microsoft.PowerApps/apis/shared_microsoftforms"
+    }
+  ]
+}
